@@ -2,8 +2,8 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import MetaInfo from 'vue-meta-info'
 
-// 登录模块 路由
-// import loginRouter from '@/router/login.router'
+// 商品模块 路由
+import goodsRouter from '@/router/goods'
 
 Vue.use(Router);
 Vue.use(MetaInfo);
@@ -25,8 +25,8 @@ const router = new Router({
             },
             component: () => import ('@/pages/index/index')
         },
-        // 登录模块
-        // ...loginRouter,
+        // 商品模块
+        ...goodsRouter,
     ]
 });
 

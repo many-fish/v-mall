@@ -6,13 +6,18 @@
             </van-swipe-item>
         </van-swipe>
         <button type="button" @click="setLocalStorage">设置缓存</button>
+
+        <footer-bar></footer-bar>
     </div>
 </template>
 
 <script>
+    import FooterBar from '@/components/footer-bar'
     export default {
         name: 'index',
-        components: {},
+        components: {
+            'footer-bar': FooterBar
+        },
         data() {
             return {
                 bannerList: [],
