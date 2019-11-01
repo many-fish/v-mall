@@ -3,6 +3,7 @@
         <van-swipe :autoplay="3000" indicator-color="white">
             <van-swipe-item v-for="item in bannerList">
                 <img :src="item.url">
+                <img :src="item.url">
             </van-swipe-item>
         </van-swipe>
         <button type="button" @click="setLocalStorage">设置缓存</button>
