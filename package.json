@@ -12,7 +12,7 @@
     "core-js": "^2.6.5",
     "node-sass": "^4.9.0",
     "sass-loader": "^7.0.1",
-    "vant": "^2.0.7",
+    "vant": "^2.1.8",
     "vue": "^2.6.10",
     "vue-meta-info": "^0.1.7",
     "vue-router": "^3.0.1",
